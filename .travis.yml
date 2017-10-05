@@ -16,5 +16,5 @@ before_script:
 script:
   - "python CalculadoraTest.py"
   - lettuce
-  - coverage run --branch CalculadoraTest.py
+  - coverage run --branch TestCalculadora.py
   - coverage report
